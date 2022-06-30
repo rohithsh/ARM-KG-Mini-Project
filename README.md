@@ -1,17 +1,17 @@
 # ARM-KG-Mini-Project
 
 NOTE: Our program needs following files for the data:
-carcinogenesis.owl
-kg22-carcinogenesis_lps1-train.ttl
+carcinogenesis.owl,
+kg22-carcinogenesis_lps1-train.ttl,
 kg22-carcinogenesis_lps2-test.ttl
 
 Following installations need to be done:
- pip install rdflib
- pip install rdfpandas
- pip install pykeen
- pip install sklearn
- pip install pandas
- pip install numpy
+ pip install rdflib,
+ pip install rdfpandas,
+ pip install pykeen,
+ pip install sklearn,
+ pip install pandas,
+ pip install numpy.
  
  The main.py contains only one function i.e. main().
  
