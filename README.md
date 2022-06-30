@@ -18,3 +18,15 @@ Following installations need to be done:
  The main() function will execute complete code and generate output file - classification_result.ttl in the same folder.
  The classification_result.ttl file contains the positively predicted data (The unclassified data that is present in carcinogenesis.owl 
  but not present in kg22-carcinogenesis_lps2-test.ttl is given to the model for prediction).
+ 
+ Docker Commands:
+ To build docker file: 
+ docker build -t <tag-name>
+ 
+ To run docker image: 
+ docker run <tag-name>
+ 
+ To view output:
+ docker cp <container-ID>:classification_result.ttl .
+ 
+  
