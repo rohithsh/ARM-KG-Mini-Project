@@ -21,12 +21,12 @@ Following installations need to be done:
  
  Docker Commands:
  To build docker file: 
- docker build -t <tag-name>
+ docker build -t \<tag-name\>
  
  To run docker image: 
- docker run <tag-name>
+ docker run \<tag-name\>
  
  To view output:
- docker cp <container-ID>:classification_result.ttl .
+ docker cp \<container-ID\>:classification_result.ttl .
  
   
